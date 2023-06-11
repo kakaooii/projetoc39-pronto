@@ -53,10 +53,7 @@ class Quiz {
 //verifique se a condição para a resposta dos jogadores e a resposta correta são iguais
 //se for igual preencha com verde
 //se não preencha com vermelho
-if(var gameState = 1) {
-  //fiquei em duvida
-}
-
+      if (correctAns === allContestants[plr].answer){ fill("Green") } else{ fill("red");}   
 
         display_Answers+=30;
         textSize(20);

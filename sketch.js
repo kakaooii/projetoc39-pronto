@@ -22,11 +22,10 @@ function draw(){
   background("pink");
   if(contestantCount === 2){
     //chame o método de atualização que está dentro da classe quiz (questionário)
-    update()
+    quiz.update(1);
   }
   if(gameState === 1){
-    clear();
-    //chame o método play que está dentro da classe quiz (questionário)
-    play()
+    clear(); 
+    quiz.play();
   }
 }
